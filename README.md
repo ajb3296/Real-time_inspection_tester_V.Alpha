@@ -1,2 +1,25 @@
 # Real-time_inspection_test
-백신의 실시간 검사를 테스트합니다.
+
+### 백신 실시간 검사 테스트
+
+거의 모든 백신은 해당 프로그램의 가짜 바이러스를 잡아냅니다.
+일부 백신들은 가짜 바이러스를 잡지 못할수도 있으니 이점 알아주세요!
+
+### LICENCE
+
+이 프로그램은 [GNU GPL LICENCE](http://korea.gnu.org/documents/copyleft/gpl.ko.html) 를 따릅니다.
+
+### 가짜 바이러스 내용
+
+택스트 파일(TXT)로 구성된 가짜 바이러스의 내부 코드
+
+'''
+X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
+'''
+
+### 사용법
+
+	1. 프로그램을 실행한다.
+	2. 키보드의 ENTER키를 누른다.
+	3. 잠시 기다린다.
+	4. 로그를 확인한다.
