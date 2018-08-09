@@ -19,7 +19,7 @@ X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
 
 ### 관련 사이트
 
-* [EICAR 바이러스 백신 테스트 파일을 사용하여 배포 확인](https://technet.microsoft.com/ko-kr/library/dd639352.aspx)
+* [Microsoft - EICAR 바이러스 백신 테스트 파일을 사용하여 배포 확인](https://technet.microsoft.com/ko-kr/library/dd639352.aspx)
 
 ### 사용법
 
