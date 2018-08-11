@@ -28,11 +28,11 @@ set bit=64
 ::Set color
 color 0f
 
-::Ã¢ »çÀÌÁî ¼³Á¤
+::ì°½ ì‚¬ì´ì¦ˆ ì„¤ì •
 mode.com con cols=120 lines=40
 
-::Å¸ÀÌÆ² ¼³Á¤
-title ¹é½Å Å×½ºÆ®
+::íƒ€ì´í‹€ ì„¤ì •
+title ë°±ì‹  í…ŒìŠ¤íŠ¸
 
 ::Set
 set v=V.Alpha
@@ -40,7 +40,7 @@ set e=OFFICIAL
 set second=0
 set zc=Zero_Cleaner
 
-::make ¹é½ÅÅ×½ºÆ® log folder
+::make ë°±ì‹ í…ŒìŠ¤íŠ¸ log folder
 if not exist "%SYSTEMDRIVE%\%zc%_log" do (
 mkdir "%SYSTEMDRIVE%\%zc%_log" >Nul 2>Nul
 )
@@ -67,16 +67,16 @@ mkdir "%SYSTEMDRIVE%\%zc%_log" >Nul 2>Nul
 )
 
 ::set log name
-set log=%systemdrive%\%zc%_log\Real-time_inspection_test[%rptdate%].log
+set log=%systemdrive%\%zc%_log\Real-time_inspection_tester[%rptdate%].log
 
 ::Create log
 echo %time% Create log>%log%
 
 ::Start
-echo Start Real-time_inspection_test>>%log%
+echo Start Real-time_inspection_tester>>%log%
 cls
 echo.
-echo.   Real-time_inspection_test - %v%_%e%
+echo.   Real-time_inspection_tester - %v%_%e%
 echo.
 echo.                                                   QESASDDS
 echo.                                                    .BgK.       
@@ -111,15 +111,15 @@ echo.                             .JULJjj.
 echo.                               :i:.                              
 echo.
 echo. 
-echo. ENTERÅ°¸¦ ´©¸£½Ã¸é ¹é½Å Å×½ºÆ®¸¦ ½ÃÀÛÇÕ´Ï´Ù.
+echo. ENTERí‚¤ë¥¼ ëˆ„ë¥´ì‹œë©´ ë°±ì‹  í…ŒìŠ¤íŠ¸ë¥¼ ì‹œìž‘í•©ë‹ˆë‹¤.
 pause>nul
 echo.>>%log%
 echo --------------- Start Core algorithm --------------->>%log%
 echo.>>%log%
 cls
 echo.
-echo. Ã¼Å©Áß. . .
-echo. ÇÙ½É ¾Ë°í¸®Áò ½ÇÇà. . .
+echo. ì²´í¬ì¤‘. . .
+echo. í•µì‹¬ ì•Œê³ ë¦¬ì¦˜ ì‹¤í–‰. . .
 ::Core algorithm
 echo X5O^^!P%%^@AP[4\PZX54^(P^^^^)7CC^)7^}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE^^!$H+H* >EICAR.TXT
 if not exist EICAR.TXT (goto 0)
@@ -132,49 +132,49 @@ timeout/t 1 /nobreak>nul
 if %second2%==10 (goto overtime)
 goto test
 :finish
-echo ¹é½ÅÀÌ ½Ç½Ã°£ °Ë»ç·Î °¡Â¥ ¹ÙÀÌ·¯½º¸¦ Á¦°ÅÇß½À´Ï´Ù.>>%log%
+echo ë°±ì‹ ì´ ì‹¤ì‹œê°„ ê²€ì‚¬ë¡œ ê°€ì§œ ë°”ì´ëŸ¬ìŠ¤ë¥¼ ì œê±°í–ˆìŠµë‹ˆë‹¤.>>%log%
 echo.>>%log%
-echo ¹é½ÅÀÌ °¡Â¥ ¹ÙÀÌ·¯½º¸¦ Å½ÁöÇÏ°í Á¦°ÅÇÏ´Â ½Ã°£ : [ %second2% ] ÃÊ>>%log%
+echo ë°±ì‹ ì´ ê°€ì§œ ë°”ì´ëŸ¬ìŠ¤ë¥¼ íƒì§€í•˜ê³  ì œê±°í•˜ëŠ” ì‹œê°„ : [ %second2% ] ì´ˆ>>%log%
 cls
 echo.
-echo. ¹é½ÅÀÌ ½Ç½Ã°£ °Ë»ç·Î °¡Â¥ ¹ÙÀÌ·¯½º¸¦ Á¦°ÅÇß½À´Ï´Ù.
+echo. ë°±ì‹ ì´ ì‹¤ì‹œê°„ ê²€ì‚¬ë¡œ ê°€ì§œ ë°”ì´ëŸ¬ìŠ¤ë¥¼ ì œê±°í–ˆìŠµë‹ˆë‹¤.
 echo.
-echo. ¹é½ÅÀÌ °¡Â¥ ¹ÙÀÌ·¯½º¸¦ Å½ÁöÇÏ°í Á¦°ÅÇÏ´Â ½Ã°£ : [ %second2% ] ÃÊ
+echo. ë°±ì‹ ì´ ê°€ì§œ ë°”ì´ëŸ¬ìŠ¤ë¥¼ íƒì§€í•˜ê³  ì œê±°í•˜ëŠ” ì‹œê°„ : [ %second2% ] ì´ˆ
 echo. 
-echo. ENTERÅ°¸¦ ´©¸£½Ã¸é ÇÁ·Î±×·¥ÀÌ Á¾·áµË´Ï´Ù.
+echo. ENTERí‚¤ë¥¼ ëˆ„ë¥´ì‹œë©´ í”„ë¡œê·¸ëž¨ì´ ì¢…ë£Œë©ë‹ˆë‹¤.
 start %log%
 pause>nul
 exit
 :0
-echo ¹é½ÅÀÇ ½Ç½Ã°£ °Ë»ç°¡ Áï°¢ÀûÀ¸·Î °¡Â¥ ¹ÙÀÌ·¯½º¸¦ Á¦°ÅÇß½À´Ï´Ù.>>%log%
+echo ë°±ì‹ ì˜ ì‹¤ì‹œê°„ ê²€ì‚¬ê°€ ì¦‰ê°ì ìœ¼ë¡œ ê°€ì§œ ë°”ì´ëŸ¬ìŠ¤ë¥¼ ì œê±°í–ˆìŠµë‹ˆë‹¤.>>%log%
 echo.>>%log%
-echo ÇÁ·Î±×·¥ ¿À·ù°¡ ÀÖÀ» ¼ö ÀÖÀ¸´Ï È®ÀÎÇØ ÁÖ¼¼¿ä.>>%log%
+echo í”„ë¡œê·¸ëž¨ ì˜¤ë¥˜ê°€ ìžˆì„ ìˆ˜ ìžˆìœ¼ë‹ˆ í™•ì¸í•´ ì£¼ì„¸ìš”.>>%log%
 echo.>>%log%
-echo ÇÁ·Î±×·¥ÀÇ ¿À·ù°¡ ¾ø´Ù¸é ¹é½ÅÀÌ °¡Â¥ ¹ÙÀÌ·¯½º¸¦ Å½ÁöÇÏ°í Á¦°ÅÇÏ´Â ½Ã°£ : [ 0 ] ÃÊ >>%log%
+echo í”„ë¡œê·¸ëž¨ì˜ ì˜¤ë¥˜ê°€ ì—†ë‹¤ë©´ ë°±ì‹ ì´ ê°€ì§œ ë°”ì´ëŸ¬ìŠ¤ë¥¼ íƒì§€í•˜ê³  ì œê±°í•˜ëŠ” ì‹œê°„ : [ 0 ] ì´ˆ >>%log%
 cls
 echo.
-echo. ¹é½ÅÀÇ ½Ç½Ã°£ °Ë»ç°¡ Áï°¢ÀûÀ¸·Î °¡Â¥ ¹ÙÀÌ·¯½º¸¦ Á¦°ÅÇß½À´Ï´Ù.
+echo. ë°±ì‹ ì˜ ì‹¤ì‹œê°„ ê²€ì‚¬ê°€ ì¦‰ê°ì ìœ¼ë¡œ ê°€ì§œ ë°”ì´ëŸ¬ìŠ¤ë¥¼ ì œê±°í–ˆìŠµë‹ˆë‹¤.
 echo.
-echo. ÇÁ·Î±×·¥ ¿À·ù°¡ ÀÖÀ» ¼ö ÀÖÀ¸´Ï È®ÀÎÇØ ÁÖ¼¼¿ä.
+echo. í”„ë¡œê·¸ëž¨ ì˜¤ë¥˜ê°€ ìžˆì„ ìˆ˜ ìžˆìœ¼ë‹ˆ í™•ì¸í•´ ì£¼ì„¸ìš”.
 echo.
-echo. ÇÁ·Î±×·¥ÀÇ ¿À·ù°¡ ¾ø´Ù¸é ¹é½ÅÀÌ °¡Â¥ ¹ÙÀÌ·¯½º¸¦ Å½ÁöÇÏ°í Á¦°ÅÇÏ´Â ½Ã°£ : [ 0 ] ÃÊ 
+echo. í”„ë¡œê·¸ëž¨ì˜ ì˜¤ë¥˜ê°€ ì—†ë‹¤ë©´ ë°±ì‹ ì´ ê°€ì§œ ë°”ì´ëŸ¬ìŠ¤ë¥¼ íƒì§€í•˜ê³  ì œê±°í•˜ëŠ” ì‹œê°„ : [ 0 ] ì´ˆ 
 echo.
-echo. ENTERÅ°¸¦ ´©¸£½Ã¸é ÇÁ·Î±×·¥ÀÌ Á¾·áµË´Ï´Ù.
+echo. ENTERí‚¤ë¥¼ ëˆ„ë¥´ì‹œë©´ í”„ë¡œê·¸ëž¨ì´ ì¢…ë£Œë©ë‹ˆë‹¤.
 start %log%
 exit
 :overtime
-echo ¹é½ÅÀÌ °¡Â¥ ¹ÙÀÌ·¯½º¸¦ Àâ´Âµ¥ 10ÃÊ ÀÌ»óÀÌ °É¸³´Ï´Ù.>>%log%
+echo ë°±ì‹ ì´ ê°€ì§œ ë°”ì´ëŸ¬ìŠ¤ë¥¼ ìž¡ëŠ”ë° 10ì´ˆ ì´ìƒì´ ê±¸ë¦½ë‹ˆë‹¤.>>%log%
 echo.>>%log%
-echo ¹é½ÅÀÌ ÄÄÇ»ÅÍ¿¡ ¾ø°Å³ª °¡Â¥ ¹ÙÀÌ·¯½º¸¦ ÀâÀ» ¼ö ¾ø´Â ¹é½ÅÀÎÁö È®ÀÎÇÏ½Ê½Ã¿À.>>%log%
-echo ÀÏºÎ ¹é½ÅµéÀº ÇØ´ç ÆÄÀÏÀ» Á¦°ÅÇÏÁö ¾Ê½À´Ï´Ù.>>%log%
+echo ë°±ì‹ ì´ ì»´í“¨í„°ì— ì—†ê±°ë‚˜ ê°€ì§œ ë°”ì´ëŸ¬ìŠ¤ë¥¼ ìž¡ì„ ìˆ˜ ì—†ëŠ” ë°±ì‹ ì¸ì§€ í™•ì¸í•˜ì‹­ì‹œì˜¤.>>%log%
+echo ì¼ë¶€ ë°±ì‹ ë“¤ì€ í•´ë‹¹ íŒŒì¼ì„ ì œê±°í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.>>%log%
 cls
 echo.
-echo. ¹é½ÅÀÌ °¡Â¥ ¹ÙÀÌ·¯½º¸¦ Àâ´Âµ¥ 10ÃÊ ÀÌ»óÀÌ °É¸³´Ï´Ù.
+echo. ë°±ì‹ ì´ ê°€ì§œ ë°”ì´ëŸ¬ìŠ¤ë¥¼ ìž¡ëŠ”ë° 10ì´ˆ ì´ìƒì´ ê±¸ë¦½ë‹ˆë‹¤.
 echo.
-echo. ¹é½ÅÀÌ ÄÄÇ»ÅÍ¿¡ ¾ø°Å³ª °¡Â¥ ¹ÙÀÌ·¯½º¸¦ ÀâÀ» ¼ö ¾ø´Â ¹é½ÅÀÎÁö È®ÀÎÇÏ½Ê½Ã¿À.
-echo. ÀÏºÎ ¹é½ÅµéÀº ÇØ´ç ÆÄÀÏÀ» Á¦°ÅÇÏÁö ¾Ê½À´Ï´Ù.
+echo. ë°±ì‹ ì´ ì»´í“¨í„°ì— ì—†ê±°ë‚˜ ê°€ì§œ ë°”ì´ëŸ¬ìŠ¤ë¥¼ ìž¡ì„ ìˆ˜ ì—†ëŠ” ë°±ì‹ ì¸ì§€ í™•ì¸í•˜ì‹­ì‹œì˜¤.
+echo. ì¼ë¶€ ë°±ì‹ ë“¤ì€ í•´ë‹¹ íŒŒì¼ì„ ì œê±°í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.
 echo.
-echo. ENTERÅ°¸¦ ´©¸£½Ã¸é ÇÁ·Î±×·¥ÀÌ Á¾·áµË´Ï´Ù.
+echo. ENTERí‚¤ë¥¼ ëˆ„ë¥´ì‹œë©´ í”„ë¡œê·¸ëž¨ì´ ì¢…ë£Œë©ë‹ˆë‹¤.
 start %log%
 exit
 
