@@ -1,4 +1,4 @@
-# Real-time_inspection_test
+# Real-time_inspection_tester
 
 ### 백신 실시간 검사 테스트
 
