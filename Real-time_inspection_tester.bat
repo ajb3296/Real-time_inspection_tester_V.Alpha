@@ -40,7 +40,7 @@ set e=OFFICIAL
 set second=0
 set zc=Zero_Cleaner
 
-::make 백신테스트 log folder
+::make 백신테스터 log folder
 if not exist "%SYSTEMDRIVE%\%zc%_log" do (
 mkdir "%SYSTEMDRIVE%\%zc%_log" >Nul 2>Nul
 )
@@ -161,6 +161,7 @@ echo. 프로그램의 오류가 없다면 백신이 가짜 바이러스를 탐�
 echo.
 echo. ENTER키를 누르시면 프로그램이 종료됩니다.
 start %log%
+pause>nul
 exit
 :overtime
 echo 백신이 가짜 바이러스를 잡는데 10초 이상이 걸립니다.>>%log%
@@ -176,6 +177,7 @@ echo. 일부 백신들은 해당 파일을 제거하지 않습니다.
 echo.
 echo. ENTER키를 누르시면 프로그램이 종료됩니다.
 start %log%
+pause>nul
 exit
 
 :nonos
