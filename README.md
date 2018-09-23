@@ -20,7 +20,7 @@ X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
 ### 공식 사이트
 
 * [공식 사이트](https://newpremium.github.io/Real-time_inspection_tester/Real-time_inspection_tester.html)
-* [공식 사이트 Github](https://github.com/NewPremium/Real-time_inspection_test)
+* [공식 사이트 Github](https://github.com/NewPremium/Real-time_inspection_tester)
 
 ### 관련 사이트
 
