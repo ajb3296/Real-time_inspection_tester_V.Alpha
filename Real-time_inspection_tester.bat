@@ -38,6 +38,8 @@ title 백신 테스트
 set v=V.Alpha
 set e=OFFICIAL
 set second=0
+set second1=0
+set second2=0
 set zc=Zero_Cleaner
 
 ::make 백신테스터 log folder
