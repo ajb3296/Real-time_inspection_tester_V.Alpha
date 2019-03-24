@@ -39,7 +39,7 @@ set v=V.Alpha
 set e=OFFICIAL
 set second=0
 set second1=0
-set second2=0
+set second2=1
 set zc=Zero_Cleaner
 
 ::make 백신테스터 log folder
@@ -129,7 +129,7 @@ timeout/t 1 /nobreak>nul
 set /a second1=%second%+1
 :test
 if not exist EICAR.TXT (goto finish)
-set /a second2=%second1%+1
+set /a second2+=1
 timeout/t 1 /nobreak>nul
 if %second2%==10 (goto overtime)
 goto test
