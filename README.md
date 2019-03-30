@@ -5,6 +5,10 @@
 거의 모든 백신은 해당 프로그램의 가짜 바이러스를 잡아냅니다.
 일부 백신들은 가짜 바이러스를 잡지 못할수도 있으니 이점 알아주세요!
 
+### 다음 버전
+
+[Real-time_inspection_tester_V.1.0](https://github.com/TanzenT-Lab/Real-time_inspection_tester_V.1.0) - 제가 올린거 맞습니다.
+
 ### LICENSE
 
 이 프로그램은 [GNU GPL LICENSE](http://korea.gnu.org/documents/copyleft/gpl.ko.html) 를 따릅니다.
